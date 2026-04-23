@@ -1,0 +1,12 @@
+# Internal FSM state of UxV platforms.
+#
+# April 23, 2026
+
+# FSM state
+int16 FSM_STATE_IDLE=0
+int16 FSM_STATE_IDLE_MANUAL=1
+int16 FSM_STATE_IDLE_OFFBOARD=2
+int16 FSM_STATE_RUN_MANUAL=3
+int16 FSM_STATE_RUN_OFFBOARD=4
+int16 FSM_STATE_ERROR=5
+int16 state
