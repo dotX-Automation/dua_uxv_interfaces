@@ -4,29 +4,29 @@
 
 std_msgs/Header header
 
-# Left vertical axis setting
-float64 lstick_v
+# Left vertical axis setting (set to NaN if not controlled)
+float32 lstick_v
 
-# Left horizontal axis setting
-float64 lstick_h
+# Left horizontal axis setting (set to NaN if not controlled)
+float32 lstick_h
 
-# Right vertical axis setting
-float64 rstick_v
+# Right vertical axis setting (set to NaN if not controlled)
+float32 rstick_v
 
-# Right horizontal axis setting
-float64 rstick_h
+# Right horizontal axis setting (set to NaN if not controlled)
+float32 rstick_h
 
-# Auxiliary digital channels
-int16[8] digi_channels
+# Activated gear
+dua_uxv_interfaces/UxVGear act_gear
+
+# Numerical inputs
+dua_uxv_interfaces/UxVNumChannels num_inputs
 
 # Operation mode
-dua_uxv_interfaces/UxVMode mode
+dua_uxv_interfaces/UxVMode op_mode
 
 # Arming flag
 bool arm
 
 # Reset flag
 bool reset
-
-# Gear selection
-int16 gear
