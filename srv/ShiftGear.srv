@@ -1,0 +1,11 @@
+# Gear shift operation.
+#
+# April 26, 2026
+
+# REQUEST
+# Gear selection
+dua_uxv_interfaces/UxVGear gear
+---
+# RESPONSE
+# Operation result
+dua_common_interfaces/CommandResultStamped result
