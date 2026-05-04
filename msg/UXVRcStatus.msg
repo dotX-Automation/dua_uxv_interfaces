@@ -17,13 +17,13 @@ float32 rstick_v_rc
 float32 rstick_h_rc
 
 # Activated gear
-dua_uxv_interfaces/UxVGear act_gear_rc
+dua_uxv_interfaces/UXVGear act_gear_rc
 
 # Numerical inputs
-dua_uxv_interfaces/UxVNumChannels num_inputs_rc
+dua_uxv_interfaces/UXVNumChannels num_inputs_rc
 
 # Operation mode
-dua_uxv_interfaces/UxVMode op_mode_rc
+dua_uxv_interfaces/UXVMode op_mode_rc
 
 # Arming flag
 bool arm_rc
